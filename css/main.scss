@@ -25,9 +25,11 @@ header {
   border-bottom: 1px solid #925F00;
  }
  .comment-input {
-  float:left;
-  width:300px;
+ float: left;
+ width: 300px;
  }
+ 
+ 
  .comments {
   float:right;
   width:450px;
@@ -39,4 +41,4 @@ header {
 footer {
   padding-top:10px;
   font: 14px Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
- 
+}

@@ -7,14 +7,14 @@
 </head>
 
 <body>
- <header>
+<header>
   <h1>Комментарии</h1>
   <span>Простое предложение, позволяющее писать комментарии</span>
- </header>
+</header>
  <main>
   <section class="comment-input">
    <p>Добавьте ваш комментарий:</p>
-   <input type="text">
+   <input type="text" required class="inputtext" placeholder="введите текст" pattern="вв" autocomplete="off" size="30" maxlength="120">
    <button>+</button>
   </section>
   <section class="comments">
@@ -24,10 +24,10 @@
    <p>А это еще один!</p>
   </section>
  </main>
- <footer>
+<footer>
   Работа размещена на общественном домене
  </footer>
- <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
- <script src="app.js"></script>
+<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+<script src="js/app.js"></script>
 </body>
 </html>
