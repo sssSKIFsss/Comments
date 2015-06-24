@@ -1,2 +1,42 @@
 /* Scss Document */
-
+body {
+ width:760px;
+ background-color:#FCFFD7;
+ margin:auto;
+}
+header {
+ border-bottom:1px solid #925F00;
+ overflow:hidden;
+}
+ h1 {
+  float: left;
+  width: 250px;
+  margin:5px 0;
+  font: bold 32px "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+ }
+ header span {
+  float:right;
+  width:480px;
+  padding-top:20px;
+  font: italic 16px Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+ }
+ main {
+  overflow:hidden;
+  border-bottom: 1px solid #925F00;
+ }
+ .comment-input {
+  float:left;
+  width:300px;
+ }
+ .comments {
+  float:right;
+  width:450px;
+ }
+.comments p {
+ background-color: #DCD2BB;
+ padding:5px 0 5px 5px;
+}
+footer {
+  padding-top:10px;
+  font: 14px Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+ 
